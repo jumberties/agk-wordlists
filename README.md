@@ -9,7 +9,7 @@ The rest of the keyboard and its other dictionaries are not part of this reposit
 | Language | List | Forms | Original | Authors | Licence chosen |
 |---|---|--:|---|---|---|
 | Greek | [`lists/wordlist_el.txt`](lists/wordlist_el.txt) | 278,552 | el_GR 0.9 (14/03/2015) | Steve Stavropoulos, Evripidis Papakostas and contributors | MPL 1.1 |
-| Aragonese | [`lists/wordlist_an.txt`](lists/wordlist_an.txt) | 111,883 | an_ES 0.3.0 (13/10/2026) | Santiago Paricio, Juan Pablo Martínez | MPL 1.1 |
+| Aragonese | [`lists/wordlist_an.txt`](lists/wordlist_an.txt) | 111,863 | an_ES 0.3.0 (13/10/2026) | Santiago Paricio, Juan Pablo Martínez | MPL 1.1 |
 
 The originals are offered under a choice of MPL 1.1, GPL or LGPL, see their READMEs in [`sources/`](sources/). The keyboard
 takes them under the **MPL 1.1** ([`licenses/MPL-1.1.txt`](licenses/MPL-1.1.txt)). The lists here, and the scripts in
@@ -24,7 +24,7 @@ whose word family the keyboard's own text shows. Forms with two accents are left
 here is the reference.
 
 **Aragonese.** The rules of `an_ES.aff` are applied to `an_ES.dic` to give plain forms, see
-[`tools/import-hunspell.py`](tools/import-hunspell.py). Left out: forms with an apostrophe or a hyphen (the keyboard builds them),
+[`tools/import-hunspell.py`](tools/import-hunspell.py). Left out: forms with an apostrophe or a hyphen (the keyboard builds them), entries that are not words (3xl.net),
 abbreviations, the plurals of proper names, diminutives and most feminines made from a consonant, which a spell checker can accept
 but a keyboard would suggest. Verbs in -car and -zar take the rules M and S instead of A (busqué, not buscé).
 

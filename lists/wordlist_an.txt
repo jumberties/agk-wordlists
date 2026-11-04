@@ -7,13 +7,6 @@
 # Changes by A Good Keyboard (2026-11-04): the affix rules applied to give plain forms, without forms with an apostrophe or
 # a hyphen, abbreviations, the plurals of proper names, diminutives and most feminines made from a consonant, and verbs in
 # -car and -zar with the rules M and S instead of A.
-3xl.net
-3xl.neta
-3xl.nez
-@tenea
-@teneo
-@teneos
-ADN.es
 ADNes
 Aaron
 Abad
@@ -706,8 +699,6 @@ Auxiliadora
 Avanza
 Avelina
 Avelino
-Avel·lina
-Avel·lí
 Aveyron
 Avilés
 Avinyó
@@ -2865,7 +2856,6 @@ Grist
 Grizzlies
 Groenlandia
 Groucho
-Grup62
 Gràcia
 Grégoire
 Guadalajara
@@ -3016,7 +3006,6 @@ Herrero
 Hervas
 Hervás
 Herzegovina
-Hezbol·lah
 Hidalgo
 Higuaín
 Higueras
@@ -3826,7 +3815,6 @@ Marcel
 Marcela
 Marcelino
 Marcelo
-Marcel·lí
 March
 Marchena
 Marcilla
@@ -4287,7 +4275,6 @@ Moscardó
 Moscova
 Moscú
 Mosela
-Mosel·la
 Mosley
 Mosso
 Mossos
@@ -5742,7 +5729,6 @@ Sumacárcel
 Sumatra
 Sunyer
 Sunyol
-Super3
 Supercopa
 Superman
 Suramérica
@@ -25107,8 +25093,6 @@ casaban
 casabas
 casada
 casadas
-casadellibro.com
-casadellibro.coms
 casam
 casamienta
 casamiento
@@ -71706,8 +71690,6 @@ kirchnerista
 kirchneristas
 km
 kms
-km²
-km²s
 krausisma
 krausismo
 krausismos
@@ -108743,8 +108725,6 @@ tuya
 tuyas
 tuyo
 tuyos
-tv3
-tv3s
 térmens
 términs
 tía

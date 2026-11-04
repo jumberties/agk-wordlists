@@ -144,7 +144,8 @@ LANGUAGES = {
 def main(tag, dic_path, aff_path):
     settings = LANGUAGES[tag]
     forms = all_forms(dic_path, aff_path, settings["skip"], respell=settings["respell"], keep=settings["keep"])
-    kept = sorted(form for form in forms if "'" not in form and "’" not in form and "-" not in form)
+    # Only letters: no apostrophes or hyphens, nor the addresses and codes some lists have (3xl.net).
+    kept = sorted(form for form in forms if form.isalpha())
     with open(f"dictionaries/wordlist_{tag}.txt", "w", encoding="utf-8") as out:
         out.write(settings["header"] + "\n".join(kept) + "\n")
     print(f"{tag}: {len(kept)} formes de {len(forms)}")
