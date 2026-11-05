@@ -3,7 +3,8 @@
 # compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
 # Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express
 # or implied. See the License for the specific language governing rights and limitations under the License.
-# Copyright (C) 2011 Santiago Paricio. Copyright (C) 2011-2026 Juan Pablo Martínez. See README_an_ES.txt. Source: https://github.com/jumberties/agk-wordlists
+# Copyright (C) 2011 Santiago Paricio. Copyright (C) 2011-2026 Juan Pablo Martínez. See README_an_ES.txt.
+# Original files and licence: https://github.com/jumberties/agk-wordlists
 # Changes by A Good Keyboard (2026-11-04): the affix rules applied to give plain forms, without forms with an apostrophe or
 # a hyphen, abbreviations, the plurals of proper names, diminutives and most feminines made from a consonant, and verbs in
 # -car and -zar with the rules M and S instead of A.

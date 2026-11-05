@@ -1,10 +1,11 @@
-# Greek word forms selected from el_GR 0.9 (Hunspell), by tools/import-hunspell-el.py: a Modification of its el_GR.dic.
-# The contents of this file are subject to the Mozilla Public License Version 1.1 (the "License"); you may not use this
-# file except in compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+# Greek word forms selected from el_GR 0.9 (Hunspell), by tools/import-hunspell.py: a Modification of its el_GR.dic.
+# This file is available under the Mozilla Public License Version 1.1 (the "License"); you may not use this file except in
+# compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
 # Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express
 # or implied. See the License for the specific language governing rights and limitations under the License.
-# Original authors: Steve Stavropoulos, Evripidis Papakostas and the contributors in README_el_GR.txt. Source: https://github.com/jumberties/agk-wordlists
-# Changes by A Good Keyboard (2026-11-04): forms left out as described in tools/import-hunspell-el.py, converted to UTF-8.
+# Original authors: Steve Stavropoulos, Evripidis Papakostas and the contributors in README_el_GR.txt.
+# Original files and licence: https://github.com/jumberties/agk-wordlists
+# Changes by A Good Keyboard (2026-11-04): forms left out as described in tools/import-hunspell.py, converted to UTF-8.
 Άαχεν
 Άβα
 Άβαι
@@ -575,12 +576,6 @@
 Ύλας
 Ύλλος
 Α
-ΑΒΣΠ
-ΑΕ
-ΑΕΙ
-ΑΣΚΤ
-ΑΤΜ
-ΑΧΕΠΑ
 Αέρινος
 Αία
 Αίαντα
@@ -3049,8 +3044,6 @@
 Βώροι
 Βώρους
 Γ
-ΓΕΝ
-ΓΕΣ
 Γάγαι
 Γάγγη
 Γάγγης
@@ -3680,8 +3673,6 @@
 Γώγου
 Γώγων
 Δ
-ΔΕΗ
-ΔΟΛ
 Δάειρα
 Δάειρας
 Δάκη
@@ -4173,19 +4164,6 @@
 Δώρας
 Δώρος
 Ε
-ΕΑΜ
-ΕΔΕΣ
-ΕΕΕΑ
-ΕΕΧΙ
-ΕΛΑΣ
-ΕΛΤΑ
-ΕΜΠ
-ΕΟΚ
-ΕΟΚΑ
-ΕΠΟΝ
-ΕΡΑ
-ΕΣΣΔ
-ΕΦΤ
 Είναι
 Εβίτα
 Εβαρίστ
@@ -4954,7 +4932,6 @@
 Ζώσιμος
 Ζώσιμου
 Ζώτος
-ΗΠΑ
 Ηγέλεως
 Ηγήμων
 Ηγήμωνα
@@ -5399,7 +5376,6 @@
 Θύμιος
 Θύμιου
 Ι
-ΙΚΑ
 Ιάβα
 Ιάβας
 Ιάζυγες
@@ -5907,8 +5883,6 @@
 Ιώς
 Ιώσηπος
 Κ
-ΚΚΕ
-ΚΤΕΛ
 Κάανθος
 Κάβδιο
 Κάβδιον
@@ -7465,7 +7439,6 @@
 Κώστας
 Κώτση
 Λ
-ΛΣ
 Λάβδακο
 Λάγκε
 Λάγκο
@@ -8241,7 +8214,6 @@
 Λύτρας
 Λύττος
 Μ
-ΜΜΕ
 Μάαζελ
 Μάαστριχ
 Μάγδαλα
@@ -9688,9 +9660,6 @@
 Μώμους
 Μώμων
 Ν
-ΝΔ
-ΝΠΔΔ
-ΝΠΙΔ
 Νάβις
 Νάγια
 Νάγιδε
@@ -10321,15 +10290,6 @@
 Ξυπετή
 Ξύδης
 Ο
-ΟΑ
-ΟΑΠ
-ΟΕ
-ΟΗΕ
-ΟΝΕ
-ΟΟΣΑ
-ΟΠΕΚ
-ΟΤΕ
-ΟΥΕΦΑ
 Οάχου
 Οία
 Οίαγρος
@@ -10691,12 +10651,6 @@
 Ούρσουλα
 Ούσα
 Π
-ΠΑΠ
-ΠΑΣΟΚ
-ΠΕΕΑ
-ΠΕΡ
-ΠΟΛ
-ΠΡΟΠΟ
 Πάβελ
 Πάβλοβα
 Πάγε
@@ -12117,9 +12071,6 @@
 Ρώσους
 Ρώσων
 Ρώτας
-ΣΕΚ
-ΣΥΜ
-ΣΥΝ
 Σάαρ
 Σάββα
 Σάββας
@@ -13290,9 +13241,6 @@
 Σύψωμου
 Σώχος
 Τ
-ΤΕΙ
-ΤΕΛ
-ΤΝΤ
 Τάγος
 Τάιλερ
 Τάιλορ
@@ -14037,7 +13985,6 @@
 Τώνης
 Τώνια
 Υ
-ΥΠΕΠΘ
 Υάδες
 Υάδων
 Υάκινθε
@@ -14102,7 +14049,6 @@
 Υόρκη
 Υόρκης
 Φ
-ΦΠΑ
 Φάβη
 Φάβης
 Φάβιε
