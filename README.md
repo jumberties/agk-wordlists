@@ -14,8 +14,11 @@ The rest of the keyboard and its other dictionaries are not part of this reposit
 | Polish | [`lists/wordlist_pl.txt`](lists/wordlist_pl.txt) | 374,662 | sjp.pl, 2026-05-11 | sjp.pl | CC BY 4.0 |
 | Dutch | [`lists/wordlist_nl.txt`](lists/wordlist_nl.txt) | 115,343 | OpenTaal, as in LibreOffice | OpenTaal | CC BY 3.0 |
 | Russian | [`lists/wordlist_ru.txt`](lists/wordlist_ru.txt) | 273,829 | ru_RU of LibreOffice | Alexander I. Lebedev | Its own licence, like BSD; this is a modified version |
+| Basque | [`lists/wordlist_eu.txt`](lists/wordlist_eu.txt) | 245,000 | Xuxen 5.4.10, as in Debian hunspell-eu | Eleka Ingeniaritza Linguistikoa, Elhuyar Hizkuntza eta Teknologia | LGPL 3 or later |
+| Swedish | [`lists/wordlist_sv.txt`](lists/wordlist_sv.txt) | 270,000 | SFOL 2.42, in the form list of [ordfinnare.se](https://ordfinnare.se/sa-funkar-ordlistan/) | Göran Andersson | LGPL 3 |
 
 Each original offers its licence or a choice of them, see its README or LICENSE in [`sources/`](sources/). The modified lists keep the licence shown above and
+[`tools/import-ranked.py`](tools/import-ranked.py) is under the LGPL 3 ([`licenses/LGPL-3.0.txt`](licenses/LGPL-3.0.txt), with [`licenses/GPL-3.0.txt`](licenses/GPL-3.0.txt)), like the Basque and Swedish lists it makes.
 come without warranty. [`tools/import-hunspell.py`](tools/import-hunspell.py) is under the MPL 1.1 ([`licenses/MPL-1.1.txt`](licenses/MPL-1.1.txt)).
 CC BY: [4.0](https://creativecommons.org/licenses/by/4.0/), [3.0](https://creativecommons.org/licenses/by/3.0/). The Russian conditions and disclaimer are in
 [`sources/ru_RU/README_ru_RU.txt`](sources/ru_RU/README_ru_RU.txt).
@@ -32,6 +35,8 @@ not followed. The settings of each language are in `LANGUAGES` in the script.
   Verbs in -car and -zar take the rules M and S instead of A (busqué, not buscé).
 * **Romanian, Polish:** productive prefixes not applied (ne-, re-, nie-).
 * **Ukrainian, Dutch:** the typographic apostrophe becomes the straight one. **Dutch:** the single letter ĳ becomes i + j.
+* **Basque:** Hunspell chains suffixes, which gives about 2,900 million forms. Only the 500 endings the keyboard's text uses are generated, the rarer ones only for the stems that text shows; forms with a hyphen and proper names with an ending left out.
+* **Swedish:** 270,000 of the 667,385 forms: first the word families the keyboard's text shows, then the rest by length, and last the forms in -s of another form, mostly genitives.
 
 ## Checksums of the originals
 
@@ -51,3 +56,6 @@ not followed. The settings of each language are in `LANGUAGES` in the script.
 | `sources/nl_NL/nl_NL.aff` | `f0233d4f721f4661cf5f4d05ed2739549322bf3b6b66764b55a38257e1e16e6f` |
 | `sources/ru_RU/ru_RU.dic` | `f6047416a0204adbecf3a451b874ec8a97ee37e2cbc714466ef04d8dbcc0d6fc` |
 | `sources/ru_RU/ru_RU.aff` | `38ce7d4af78e211e9bafe4bf7e3d6a2c420591136cb738ec6648f8fdf6524cd7` |
+| `sources/eu_ES/eu_ES.dic` | `cbc809d1640e9ef66a238e45c3655f1b1ad0b595e394692d57444e9fe4c6a130` |
+| `sources/eu_ES/eu_ES.aff` | `2e7f67678d95327b14615c2ef6f1019d727e2e531409a30e3edf526ccff111b6` |
+| `sources/sv_SE/ordlista-sv.txt` | `a306590d572ea8146da59a1299df90b830c687f6760ccaab66a9bb9ae6bb475b` |
