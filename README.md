@@ -59,3 +59,8 @@ not followed. The settings of each language are in `LANGUAGES` in the script.
 | `sources/eu_ES/eu_ES.dic` | `cbc809d1640e9ef66a238e45c3655f1b1ad0b595e394692d57444e9fe4c6a130` |
 | `sources/eu_ES/eu_ES.aff` | `2e7f67678d95327b14615c2ef6f1019d727e2e531409a30e3edf526ccff111b6` |
 | `sources/sv_SE/ordlista-sv.txt` | `a306590d572ea8146da59a1299df90b830c687f6760ccaab66a9bb9ae6bb475b` |
+
+## Tatoeba sentences
+
+The keyboard's dictionaries and neural networks also learn from sentences of [Tatoeba](https://tatoeba.org) (CC BY 2.0 FR).
+[`attributions/tatoeba/`](attributions/tatoeba/) lists every sentence used, by language, with its number and author.
