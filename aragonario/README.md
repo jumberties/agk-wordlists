@@ -27,4 +27,6 @@ Words and sentences were selected; the forms were split by variety; verb forms w
 forms were lined up with Spanish ones (the map); sentences and Spanish counts were turned into word counts. The originals are not redistributed: read them
 from the API above.
 
+In the keyboard these data are **two files of their own** (`an.aragonario.lexicon` and `an.aragonario.ngrams`, the compiled form of `counts_lexicon_an.tsv` and `counts_ngrams_an.tsv`), never mixed into the files that hold the other Aragonese lists and texts; the keyboard puts them together in memory when it loads the language. No technical measure restricts their use.
+
 The forms have **not been reviewed by Aragonese speakers**. Varieties differ a great deal, so the map keeps several forms per word.
