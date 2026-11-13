@@ -23,6 +23,11 @@ come without warranty. [`tools/import-hunspell.py`](tools/import-hunspell.py) is
 CC BY: [4.0](https://creativecommons.org/licenses/by/4.0/), [3.0](https://creativecommons.org/licenses/by/3.0/). The Russian conditions and disclaimer are in
 [`sources/ru_RU/README_ru_RU.txt`](sources/ru_RU/README_ru_RU.txt).
 
+## Aragonese, from the Aragonario
+
+[`aragonario/`](aragonario/) holds the Aragonese map, forms, sentences and counts derived from the Aragonario of the Gobierno de Aragón, under **CC BY-SA 4.0**
+(not one of the licences above). Their [README](aragonario/README.md) says what they are and what was changed.
+
 ## What was changed
 
 All the forms of a large dictionary would not fit in a phone's memory (all the Greek ones take about 98 MB), so most lists keep only part of them: short forms, and
