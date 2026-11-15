@@ -33,6 +33,11 @@ CC BY: [4.0](https://creativecommons.org/licenses/by/4.0/), [3.0](https://creati
 [`euscrawl/`](euscrawl/) holds Basque word counts derived from EusCrawl v2 (HiTZ and IXA, UPV/EHU): Creative Commons Attribution-ShareAlike
 articles from Basque websites, under **CC BY-SA 4.0**. Their [README](euscrawl/README.md) lists the sources and says what was changed.
 
+## Occitan, from Jornalet
+
+[`jornalet/`](jornalet/) holds Occitan word counts derived from the news of Jornalet (ADÒC), under **CC BY-SA 4.0** (the news are
+CC BY-SA 3.0). Their [README](jornalet/README.md) lists the articles and says what was changed.
+
 ## Catalan, from Softcatalà's dictionary
 
 [`softcatala/`](softcatala/) holds Catalan verb forms taken from Softcatalà's dictionary (catalan-dict-tools), under the **GNU LGPL 2.1**
