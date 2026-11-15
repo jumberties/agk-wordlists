@@ -12,6 +12,9 @@ The original is distributed under the **GNU LGPL 2.1** and the **GNU GPL 2.0**. 
 [`../tools/build-softcatala.py`](../tools/build-softcatala.py), which makes it. It comes without warranty. A Good Keyboard uses it
 so that it knows the forms of common verbs its own Catalan text never showed (subjunctives such as "suggereixi", "distingeixi").
 
+[`verb_forms_ca_balearic.txt`](verb_forms_ca_balearic.txt) holds 1,655 more forms that are only Balearic (variant tags B and Z, and the
+subjunctives such as "cantàs", "cantàssim"): the keyboard adds them only when its Balearic option is on.
+
 ## What was changed
 
 Only verbs were taken, and of each verb only the forms the keyboard's Catalan dictionary lacked, when that dictionary has the verb's
