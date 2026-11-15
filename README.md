@@ -14,6 +14,7 @@ The rest of the keyboard and its other dictionaries are not part of this reposit
 | Polish | [`lists/wordlist_pl.txt`](lists/wordlist_pl.txt) | 374,662 | sjp.pl, 2026-05-11 | sjp.pl | CC BY 4.0 |
 | Dutch | [`lists/wordlist_nl.txt`](lists/wordlist_nl.txt) | 115,343 | OpenTaal, as in LibreOffice | OpenTaal | CC BY 3.0 |
 | Russian | [`lists/wordlist_ru.txt`](lists/wordlist_ru.txt) | 273,829 | ru_RU of LibreOffice | Alexander I. Lebedev | Its own licence, like BSD; this is a modified version |
+| Lithuanian | [`lists/wordlist_lt.txt`](lists/wordlist_lt.txt) | 217,695 | ispell-lt (lt_LT of LibreOffice) | Albertas Agejevas and contributors | Its own licence, BSD-style; this is a modified version |
 | Basque | [`lists/wordlist_eu.txt`](lists/wordlist_eu.txt) | 245,000 | Xuxen 5.4.10, as in Debian hunspell-eu | Eleka Ingeniaritza Linguistikoa, Elhuyar Hizkuntza eta Teknologia | LGPL 3 or later |
 | Swedish | [`lists/wordlist_sv.txt`](lists/wordlist_sv.txt) | 270,000 | SFOL 2.42, in the form list of [ordfinnare.se](https://ordfinnare.se/sa-funkar-ordlistan/) | Göran Andersson | LGPL 3 |
 
@@ -21,7 +22,7 @@ Each original offers its licence or a choice of them, see its README or LICENSE 
 [`tools/import-ranked.py`](tools/import-ranked.py) is under the LGPL 3 ([`licenses/LGPL-3.0.txt`](licenses/LGPL-3.0.txt), with [`licenses/GPL-3.0.txt`](licenses/GPL-3.0.txt)), like the Basque and Swedish lists it makes.
 come without warranty. [`tools/import-hunspell.py`](tools/import-hunspell.py) is under the MPL 1.1 ([`licenses/MPL-1.1.txt`](licenses/MPL-1.1.txt)).
 CC BY: [4.0](https://creativecommons.org/licenses/by/4.0/), [3.0](https://creativecommons.org/licenses/by/3.0/). The Russian conditions and disclaimer are in
-[`sources/ru_RU/README_ru_RU.txt`](sources/ru_RU/README_ru_RU.txt).
+[`sources/ru_RU/README_ru_RU.txt`](sources/ru_RU/README_ru_RU.txt), the Lithuanian ones in [`sources/lt_LT/COPYING`](sources/lt_LT/COPYING).
 
 ## Aragonese, from the Aragonario
 

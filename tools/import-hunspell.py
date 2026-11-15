@@ -241,6 +241,17 @@ LANGUAGES = {
             "# Used under the Creative Commons Attribution 3.0 Unported licence, https://creativecommons.org/licenses/by/3.0/\n"
             "# Creator: OpenTaal, https://opentaal.org. Source: https://github.com/OpenTaal/opentaal-hunspell See LICENSE.txt.\n" + SOURCE + SELECTED,
     },
+    "lt": {
+        # The verb prefixes (ne-, be-, iš-, pri-…) on every form give 36 million: only the plain forms, the prefixed ones the text shows.
+        "select": (6, 1, 5),
+        "no_prefixes": True,
+        "header": "# Lithuanian word forms selected from ispell-lt (Hunspell lt_LT of LibreOffice), by tools/import-hunspell.py: a modified version.\n"
+            "# Copyright (c) 2000-2020, Albertas Agejevas and contributors. All rights reserved. Used under its BSD-style licence:\n"
+            "# redistributions must retain this notice, the conditions and the disclaimer, which are in COPYING next to the original files.\n"
+            "# THIS SOFTWARE IS PROVIDED BY COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED.\n" + SOURCE +
+            "# Changes by AGK (2026-11-15): the suffix rules applied to give plain forms, without the prefixes, and only part of them kept, as\n"
+            "# described in tools/import-hunspell.py.\n",
+    },
     "ru": {
         "select": (6, 1, 5),
         "header": "# Russian word forms selected from the dictionary of Alexander I. Lebedev (Hunspell), by tools/import-hunspell.py.\n"

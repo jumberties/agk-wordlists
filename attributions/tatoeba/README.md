@@ -30,6 +30,14 @@ contributor can be credited and each sentence found at `https://tatoeba.org/sent
 | Russian | [`tatoeba_ru.tsv.gz`](tatoeba_ru.tsv.gz) | 1,209,010 | 1,573 | 47 |
 | Ukrainian | [`tatoeba_uk.tsv.gz`](tatoeba_uk.tsv.gz) | 184,934 | 293 | 31 |
 | Greek | [`tatoeba_el.tsv.gz`](tatoeba_el.tsv.gz) | 42,107 | 184 | 467 |
+| Finnish | [`tatoeba_fi.tsv.gz`](tatoeba_fi.tsv.gz) | 150,837 | 274 | 16 |
+| Turkish | [`tatoeba_tr.tsv.gz`](tatoeba_tr.tsv.gz) | 704,198 | 1,041 | 920 |
+| Lithuanian | [`tatoeba_lt.tsv.gz`](tatoeba_lt.tsv.gz) | 155,943 | 81 | 302 |
+| Esperanto | [`tatoeba_eo.tsv.gz`](tatoeba_eo.tsv.gz) | 778,674 | 929 | 3 |
+| Kabyle | [`tatoeba_kab.tsv.gz`](tatoeba_kab.tsv.gz) | 563,668 | 324 | 8 |
+| Berber | [`tatoeba_ber.tsv.gz`](tatoeba_ber.tsv.gz) | 596,000 | 251 | 14 |
+| Tatar | [`tatoeba_tt.tsv.gz`](tatoeba_tt.tsv.gz) | 68,313 | 63 | 0 |
+| Hebrew | [`tatoeba_he.tsv.gz`](tatoeba_he.tsv.gz) | 208,383 | 216 | 311 |
 
 Each file is a gzipped TSV: `sentence_id`, `author` (the Tatoeba username; empty when the export gives
 none, `?` when the sentence is no longer in the export), `uses`:
@@ -47,3 +55,10 @@ dropped; apostrophe forms such as "l'home" split in two. In the dictionaries eac
 for Dutch, Polish, Romanian, Swedish, Occitan, Asturian, Aragonese, Czech, Hungarian, Russian, Ukrainian and
 Greek). The authors come from Tatoeba's detailed exports of 10 November 2026. Made with
 [`../../tools/tatoeba-attributions.py`](../../tools/tatoeba-attributions.py).
+
+Finnish, Turkish, Lithuanian, Esperanto, Kabyle, Berber, Tatar and Hebrew (added on 15 November 2026) come straight from
+Tatoeba's detailed exports of that day, sentences and authors alike, with
+[`../../tools/tatoeba-attributions-detailed.py`](../../tools/tatoeba-attributions-detailed.py). Besides the changes above,
+some were left out before counting: those in another script (the Latin Tatar of Zamanälif, the Berber in Tifinagh), and drills
+(more than 40 sentences that differ only in one word or only in their names: 17% of the Kabyle ones). Greek ε and γ written
+for the Berber ɛ and ɣ are counted as the Berber letters.
