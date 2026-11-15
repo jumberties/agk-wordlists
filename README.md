@@ -33,6 +33,12 @@ CC BY: [4.0](https://creativecommons.org/licenses/by/4.0/), [3.0](https://creati
 [`euscrawl/`](euscrawl/) holds Basque word counts derived from EusCrawl v2 (HiTZ and IXA, UPV/EHU): Creative Commons Attribution-ShareAlike
 articles from Basque websites, under **CC BY-SA 4.0**. Their [README](euscrawl/README.md) lists the sources and says what was changed.
 
+## Catalan, from Softcatalà's dictionary
+
+[`softcatala/`](softcatala/) holds Catalan verb forms taken from Softcatalà's dictionary (catalan-dict-tools), under the **GNU LGPL 2.1**
+([`licenses/LGPL-2.1.txt`](licenses/LGPL-2.1.txt), with [`licenses/GPL-2.0.txt`](licenses/GPL-2.0.txt)). The original is in
+[`sources/ca_softcatala/`](sources/ca_softcatala/); the [README](softcatala/README.md) says what was changed.
+
 ## What was changed
 
 All the forms of a large dictionary would not fit in a phone's memory (all the Greek ones take about 98 MB), so most lists keep only part of them: short forms, and
